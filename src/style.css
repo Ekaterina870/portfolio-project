@@ -45,6 +45,10 @@ img {
 .navigation-links a {
   margin: 20px;
 }
+.logo {
+  width: 60px;
+  height: 60px;
+}
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -53,6 +57,12 @@ img {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+.primary-link:hover {
+  color: black;
+}
+.services-button {
+  margin: 50px;
 }
 
 footer {
